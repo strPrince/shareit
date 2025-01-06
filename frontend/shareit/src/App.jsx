@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { BrowserRouter as Router, Route, BrowserRouter, Routes } from 'react-router-dom'
-import Home from '../pages/home'
+
 import ShareIt from '../pages/shareit'
 import './App.css'
 
@@ -12,8 +12,8 @@ function App() {
    
     <BrowserRouter>
     <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/share" element={<ShareIt />} />
+      <Route path="/" element={<ShareIt />} />
+      
     </Routes>
 
     </BrowserRouter>
