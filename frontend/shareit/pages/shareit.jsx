@@ -62,6 +62,7 @@ const ShareIt = () => {
         }
   
         position = (position + 1) % 360;
+        
         const gradient = `linear-gradient(${position}deg, ${colors.join(', ')})`;
         if (containerRef.current) {
           containerRef.current.style.background = gradient;
